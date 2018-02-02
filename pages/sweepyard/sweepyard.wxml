@@ -1,0 +1,4 @@
+ <view class='continue'>
+ <!-- <button bindtap="clickscan">点击扫码</button> -->
+ 扫码结果:{{scanCode}}
+</view> 

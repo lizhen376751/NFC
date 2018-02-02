@@ -1,0 +1,96 @@
+<view class='continue'>
+  <view class='head'>
+    <view class='head1'>
+      <image class='headimg' src="{{userInfo.avatarUrl}}"></image>
+    </view>
+
+    <view class='head2'>
+      <view class='head2_nickname'>
+        <text>{{userInfo.nickName}}</text>
+      </view>
+      <view class='head2_mess'>
+        <view class='head2_gonghao'>
+          <text>工号 : </text>
+          <text class='gonghao'>{{worknum}}</text>
+        </view>
+        <view>
+          <text>学号 : </text>
+          <text class='gonghao'>{{studentid}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="head3" bindtap="clickdetails">
+      <view>
+        <text>详情</text>
+      </view>
+      <view class='details'>
+        <image class='detailsimg' src='../../image/brushyard/details.png'></image>
+      </view>
+
+    </view>
+  </view>
+
+
+  <view class='bodyandfoot'>
+
+    <view class='body'>
+      <view class='body1' bindtap='consumptionclick'>
+
+        <view>
+          <image class="daohangimg" src='../../image/mine/consumption.png'></image>
+        </view>
+
+        <view class='daohangtitle'>
+          <text> 消费记录</text>
+        </view>
+
+        <view>
+          <image class="daohangjiantou" src='../../image/mine/more.png'></image>
+        </view>
+
+      </view>
+
+      <view class='body1' bindtap='guardclick'>
+
+        <view>
+          <image class="daohangimg" src='../../image/mine/guard.png'></image>
+        </view>
+
+        <view class='daohangtitle'>
+          <text> 门禁记录</text>
+        </view>
+
+        <view>
+          <image class="daohangjiantou" src='../../image/mine/more.png'></image>
+        </view>
+
+      </view>
+
+      <view class='body1' bindtap='singclick'>
+
+        <view>
+          <image class="daohangimg" src='../../image/mine/sing.png'></image>
+        </view>
+
+        <view class='daohangtitle'>
+          <text> 签到记录</text>
+        </view>
+
+        <view>
+          <image class="daohangjiantou" src='../../image/mine/more.png'></image>
+        </view>
+
+      </view>
+
+    </view>
+
+    <view class='foot'>
+      <button bindtap="exitclick" class='footbutton' plain style="color: #f37f25; border-color: #f37f25;"  plain="true" ><text class='footclour'>退出登录</text> </button>
+      
+    </view>
+
+  </view>
+
+
+</view>

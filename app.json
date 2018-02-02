@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/brushyard/brushyard",
+    "pages/sweepyard/sweepyard",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/log/log"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5699E8",
+    "navigationBarTitleText": "智能刷卡系统",
+    "navigationBarTextStyle": "#F1F4FD"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#277DDF",
+    "borderStyle": "#f10b2e",
+    "list": [
+      {
+        "pagePath": "pages/brushyard/brushyard",
+        "text": "刷码",
+        "iconPath": "image/tabBarimg/brushyard1.png",
+        "selectedIconPath": "image/tabBarimg/brushyard2.jpg"
+      },
+      {
+        "pagePath": "pages/sweepyard/sweepyard",
+        "text": "扫码",
+        "iconPath": "image/tabBarimg/sweepyard1.png",
+        "selectedIconPath": "image/tabBarimg/sweepyard2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "image/tabBarimg/mine1.png",
+        "selectedIconPath": "image/tabBarimg/mine2.png"
+      }
+    ]
+  }
+}

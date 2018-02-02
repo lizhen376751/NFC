@@ -1,0 +1,24 @@
+<view class='continue'>
+
+  <view class="schoolcode">
+    <view class='codetitle'>
+      校园码
+    </view>
+    <view class='code'>
+      <image class="codeimage" src='../../image/brushyard/brushcode.jpg'></image>
+    </view>
+  </view>
+
+  <view class='NFCbutton'>
+
+    <view class='NFCtitle'>
+      NFC校园卡
+    </view>
+
+    <view bindtap="NFCClick" class='NFCbrush'>
+      <image class='NFCimag' src='../../image/brushyard/clickbutton.jpg'></image>
+    </view>
+
+  </view>
+
+</view>
